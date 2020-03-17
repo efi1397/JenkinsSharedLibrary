@@ -1,5 +1,5 @@
 def call() {
     node {
-        checkout scm
+        checkout.call(scm)
     }
 }
