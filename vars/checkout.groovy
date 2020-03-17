@@ -1,5 +1,6 @@
 def call() {
     node {
-        checkout.call(scm)
+        def scm = checkout.call()
+        echo(scm.toString())
     }
 }
