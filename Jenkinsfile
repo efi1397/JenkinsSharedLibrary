@@ -1,5 +1,6 @@
 node('windows'){
-
-	powershell script: 'ls'
-	powershell script: 'gradlew test'
+    git branch: env.BRANCH_NAME, url: 'https://github.com/efi1397/JenkinsSharedLibrary.git'
+    bat script: 'gradlew test'
+    cleanWs()
+    
 }
