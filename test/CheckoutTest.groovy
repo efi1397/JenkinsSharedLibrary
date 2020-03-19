@@ -12,9 +12,6 @@ class CheckoutTest extends BasePipelineTest {
 
     }
 
-// when i do push linkting
-// create pipeline for jenkinsFile
-
     @Test
     void testCall() {
         // create mock checkout step
