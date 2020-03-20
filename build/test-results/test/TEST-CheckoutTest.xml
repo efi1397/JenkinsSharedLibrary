@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CheckoutTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-20T10:33:41" hostname="efi-PC" time="0.754">
+  <properties/>
+  <testcase name="testCall" classname="CheckoutTest" time="0.754"/>
+  <system-out><![CDATA[   checkoutScm.call()
+      checkoutScm.node(windows, groovy.lang.Closure)
+         checkoutScm.echo(checkout: )
+         checkoutScm.checkout({$class=GitSCM, branches=[{name=*/dev}], doGenerateSubmoduleConfigurations=false, extensions=[], submoduleCfg=[], userRemoteConfigs=[{url=https://github.com/efi1397/JenkinsSharedLibrary.git}]})
+         checkoutScm.echo([$class:GitSCM, branches:[[name:*/dev]], doGenerateSubmoduleConfigurations:false, extensions:[], submoduleCfg:[], userRemoteConfigs:[[url:https://github.com/efi1397/JenkinsSharedLibrary.git]]])
+         checkoutScm.echo(null)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

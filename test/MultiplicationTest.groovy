@@ -10,7 +10,6 @@ class MultiplicationTest extends BasePipelineTest{
         super.setUp()
         multiplication = loadScript("vars/multiplication.groovy")
     }
-
     @Test
     void testCall() {
         def result = multiplication(5, 6)

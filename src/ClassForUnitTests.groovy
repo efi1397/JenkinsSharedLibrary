@@ -1,5 +1,0 @@
-class ClassForUnitTests {
-    void Test(){
-
-    }
-}

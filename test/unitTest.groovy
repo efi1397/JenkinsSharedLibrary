@@ -7,8 +7,4 @@ class unitTest {
         assertEquals(2, 1 + 1)
     }
 
-    @Test
-    void more(){
-        assertEquals(3, 2 + 1)
-    }
 }
