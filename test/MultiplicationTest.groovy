@@ -13,6 +13,6 @@ class MultiplicationTest extends BasePipelineTest{
     @Test
     void testCall() {
         def result = multiplication(5, 6)
-        assert result == 20
+        assert result == 30
     }
 }
