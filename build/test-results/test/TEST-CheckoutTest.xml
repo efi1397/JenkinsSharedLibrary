@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CheckoutTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-18T15:53:41" hostname="efi-PC" time="4.384">
+<testsuite name="CheckoutTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-20T10:30:35" hostname="efi-PC" time="4.869">
   <properties/>
-  <testcase name="testCall" classname="CheckoutTest" time="4.384"/>
+  <testcase name="testCall" classname="CheckoutTest" time="4.869"/>
   <system-out><![CDATA[   checkoutScm.call()
       checkoutScm.node(windows, groovy.lang.Closure)
          checkoutScm.echo(checkout: )
