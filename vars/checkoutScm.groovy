@@ -1,7 +1,9 @@
 def call() {
-    node('windows'){
+    node('windows') {
         echo("checkout: ")
         def scmDetails = checkout scm
+        echo(scm.toString())
         echo(scmDetails.toString())
+        return scmDetails
     }
 }

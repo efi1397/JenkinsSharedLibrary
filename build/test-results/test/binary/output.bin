@@ -1,0 +1,6 @@
+   checkoutScm.call()
+6      checkoutScm.node(windows, groovy.lang.Closure)
+'         checkoutScm.echo(checkout: )
+á         checkoutScm.checkout({$class=GitSCM, branches=[{name=*/dev}], doGenerateSubmoduleConfigurations=false, extensions=[], submoduleCfg=[], userRemoteConfigs=[{url=https://github.com/efi1397/JenkinsSharedLibrary.git}]})
+Ý         checkoutScm.echo([$class:GitSCM, branches:[[name:*/dev]], doGenerateSubmoduleConfigurations:false, extensions:[], submoduleCfg:[], userRemoteConfigs:[[url:https://github.com/efi1397/JenkinsSharedLibrary.git]]])
+!         checkoutScm.echo(null)
